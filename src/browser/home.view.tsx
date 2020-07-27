@@ -14,7 +14,7 @@ function Home() {
                     <Heading level="2" style={{ fontWeight: 400 }}>{intl.formatMessage({ id: 'cellbang.site.home.title' })}</Heading>
                     <Heading level="4" style={{ maxWidth: '1000px', fontWeight: 400 }} >{intl.formatMessage({ id: 'cellbang.site.home.subtitle' })}</Heading>
                     <Box pad="large">
-                        <Button href="#JoinUs" size="large" label={intl.formatMessage({ id: 'cellbang.site.home.joinUs.label' })}></Button>
+                        <Button color="accent-1" href="#JoinUs" size="large" label={intl.formatMessage({ id: 'cellbang.site.home.joinUs.label' })}></Button>
                     </Box>
                 </Main>
             </Box>
