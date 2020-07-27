@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { View, Redirect } from '@malagu/react';
-import { Box, Main, Heading, Button, Text, Stack, Anchor } from 'grommet';
+import { Box, Main, Heading, Button, Text, Stack, Anchor, ResponsiveContext } from 'grommet';
 import { useIntl } from 'react-intl';
 import { Dingding, QQ } from './icon';
 import { Mail, Link } from 'grommet-icons'
 
-function Welcome() {
+function Home() {
     const intl = useIntl();
     return (
         <Box>
@@ -25,9 +25,10 @@ function Welcome() {
 
 function JoinUs() {
     const intl = useIntl();
+    const size = React.useContext(ResponsiveContext);
     return (
         <Stack anchor="top-right" margin="large">
-            <Box id="JoinUs" direction="row" justify="center" gap="xlarge" pad="xlarge">
+            <Box id="JoinUs" direction={size === 'small' ? 'column' : 'row'} justify="center" gap="xlarge" pad="xlarge">
                 <Box gap="medium" align="center">
                     <QQ size="xlarge"/>
                     <Text>{intl.formatMessage({ id: 'cellbang.site.home.joinUs.qq.label' })}</Text>
@@ -45,6 +46,6 @@ function JoinUs() {
         </Stack>
     );
 }
-@View({ path: '/welcome', exact: true, component: Welcome})
-@Redirect({ to: '/welcome' })
+@View({ path: '/', exact: true, component: Home})
+@Redirect({ to: '/' })
 export default class {}
