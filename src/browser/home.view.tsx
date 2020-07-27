@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { View } from '@malagu/react';
+import { View, Redirect } from '@malagu/react';
 import { Box, Main, Heading, Button, Text, Stack, Anchor } from 'grommet';
 import { useIntl } from 'react-intl';
 import { Dingding, QQ } from './icon';
 import { Mail, Link } from 'grommet-icons'
 
-function Home() {
+function Welcome() {
     const intl = useIntl();
     return (
         <Box>
@@ -45,6 +45,6 @@ function JoinUs() {
         </Stack>
     );
 }
-
-@View({ path: '/', exact: true, component: Home})
+@View({ path: '/welcome', exact: true, component: Welcome})
+@Redirect({ to: '/welcome' })
 export default class {}
