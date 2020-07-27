@@ -1,0 +1,19 @@
+malagu:
+  widget:
+    locales:
+      zh-CN:
+        messages:
+          cellbang.site.home.title: 面向未来的云开发
+          cellbang.site.home.subtitle: 组件沉淀复用 · 开发定义组件 · 业务组装组件
+          cellbang.site.home.joinUs.label: 加入我们
+          cellbang.site.home.joinUs.qq.label: 1013685855
+          cellbang.site.home.joinUs.dingding.label: 31992376
+          cellbang.site.home.joinUs.email.label: kevin@cellbang.com
+      en-US:
+        messages:
+          cellbang.site.home.title: Future-oriented cloud development
+          cellbang.site.home.subtitle: Component precipitation reuse · Developer-defined components · Business assembly components
+          cellbang.site.home.joinUs.label: Join us
+          cellbang.site.home.joinUs.qq.label: 1013685855
+          cellbang.site.home.joinUs.dingding.label: 31992376
+          cellbang.site.home.joinUs.email.label: kevin@cellbang.com

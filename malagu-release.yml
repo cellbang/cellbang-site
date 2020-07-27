@@ -1,0 +1,13 @@
+malagu:
+  webpack:
+    config:
+      devtool: false
+deployConfig:
+  name: release # 线上环境
+  customDomain:
+    name: www.cellbang.com # 需要绑定自定义域名才能正常访问
+    protocol: HTTP,HTTPS
+    certConfig:
+      certName: cert-3956618
+      certificate: ssl/www.cellbang.com.pem
+      privateKey: ssl/www.cellbang.com.key
