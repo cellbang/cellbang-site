@@ -1,7 +1,3 @@
-malagu:
-  webpack:
-    config:
-      devtool: false
 deployConfig:
   name: release # 线上环境
   customDomain:

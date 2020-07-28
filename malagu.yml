@@ -5,6 +5,10 @@ mode:
 deployConfig:
   service:
     name: cellbang
+    logConfig: 
+      logstore: logstore
+      project: cellbang
+    role: acs:ram::${deployConfig.profile.accountId}:role/cellbangrole
 malagu:
   name: 细胞矩阵 | Cellbang
   shell:

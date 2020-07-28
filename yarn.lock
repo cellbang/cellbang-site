@@ -926,10 +926,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@malagu/cli@next":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/cli/-/cli-0.1.0-next.ab70ce8b.tgz#bb151a17d123bcfb78772c571abecbdf056c5823"
-  integrity sha512-ZFK56KXMhIIqc7G+JdNvyy9hji6QjIXzgwUh/Fz4q4hr3iwgvemWVfT/M5bM4I4DdStNdZWlPxpEQd1FMW8aEQ==
+"@malagu/cli@^0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/cli/-/cli-0.1.0-next.d06421f8.tgz#3acb56d2a816c3131a4ad3a97adae7f23c2464f3"
+  integrity sha512-rbTcUZh9YEJDoS3CY3fVD80hXVW5ckdyLqmDrAfJ3JLw6Z5ulQi5oh+zQdbC4HzM6rWaO3yQ27J/Shm99Rb7Bw==
   dependencies:
     "@yarnpkg/lockfile" "^1.1.0"
     axios "^0.19.2"
@@ -980,10 +980,10 @@
     workbox-webpack-plugin "^5.1.3"
     worker-loader "^2.0.0"
 
-"@malagu/core@0.1.0-next.ab70ce8b":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/core/-/core-0.1.0-next.ab70ce8b.tgz#d34bbf5503cd63e2dbe4d5ccc9f71032ffb9296f"
-  integrity sha512-3DWdgCAX8FmOEHVIWFkUtrP7uTpzOcxTVFRE/XfWAm9eIoyHb5Jq2edbo5mGlc0NZr09stq1INAUPxqeBSVg1g==
+"@malagu/core@0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/core/-/core-0.1.0-next.d06421f8.tgz#74344ac91d260c0cb07cdd348ce7d61235c3ad80"
+  integrity sha512-qxsXadh5zjner0pVYNJacpKVY8SYckWKQyN72rqUPzRanJMSPN8Dt2/MKRhxH3eKnvBJ7OLDTI6KTbqTQ3gMug==
   dependencies:
     "@types/express" "^4.16.1"
     "@types/lodash.debounce" "4.0.3"
@@ -1005,15 +1005,15 @@
     url-join "^4.0.1"
     vscode-ws-jsonrpc "^0.1.1"
 
-"@malagu/fc-adapter@next":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/fc-adapter/-/fc-adapter-0.1.0-next.ab70ce8b.tgz#7d909d36fcee48e97a0efde9e8711dc331198178"
-  integrity sha512-U+4062AAN4FmQeswPs0dXeen1fYN5HwbSnS9bWbiETiDIrgjGXyrEfcY0z72BG8wbc5kur2P8nE2VhCJzllW4g==
+"@malagu/fc-adapter@^0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/fc-adapter/-/fc-adapter-0.1.0-next.d06421f8.tgz#ec9f2519d4f58f2055c2c686ccf3a77aad09776b"
+  integrity sha512-xxcywC9PGAUPQwpOXztllZZ5rg67Eu6ny25Ym1ugbrRDPuje1Js7ZwxlZ4R0ONGj6Ge97cjMic+0YALYlnJ1wQ==
   dependencies:
     "@alicloud/cloudapi" "^1.1.0"
     "@alicloud/fc2" "^2.1.1"
     "@alicloud/ram" "^1.0.0"
-    "@malagu/web" "0.1.0-next.ab70ce8b"
+    "@malagu/web" "0.1.0-next.d06421f8"
     "@webserverless/fc-express" "^0.1.4"
     ali-oss "^6.1.1"
     co "^4.6.0"
@@ -1025,12 +1025,12 @@
     jszip "^3.2.2"
     raw-body "^2.3.3"
 
-"@malagu/grommet@0.1.0-next.ab70ce8b":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/grommet/-/grommet-0.1.0-next.ab70ce8b.tgz#b92b9b5d0e35dd5027c6b7baa756982c6b0c61d8"
-  integrity sha512-Rf9JpjTN/XIUz1fsNfp2tkzJK8R8/n754r7CpIanTJzrSubrk9y0GWLXIS4GnUgbu/MXBma2/LpBTgpwKrButA==
+"@malagu/grommet@0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/grommet/-/grommet-0.1.0-next.d06421f8.tgz#209ab940775ac349f473b554cb53317a8a6b53fd"
+  integrity sha512-u+yyvgHWtQZmgbInsnUg5GD0ZxCPXnkfXDmpriB+VLzMjO7yxcizsjqe9bEBW/0bFCIJghZKHKFAdTuY6MJ0EQ==
   dependencies:
-    "@malagu/react" "0.1.0-next.ab70ce8b"
+    "@malagu/react" "0.1.0-next.d06421f8"
     grommet "^2.14.0"
     grommet-icons "^4.4.0"
     react "^16.12.0"
@@ -1038,12 +1038,12 @@
     react-is "^16.13.1"
     styled-components "^5.1.1"
 
-"@malagu/react@0.1.0-next.ab70ce8b":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/react/-/react-0.1.0-next.ab70ce8b.tgz#d257830910a345dd2250c91e9362bee815c37ce0"
-  integrity sha512-IJrF5l+0N/YCISOKomVlqO9YydRLsaAV6yXmVFdsntFy0siMYsnOTtjvKsqDRRMi5wOkWqjbrntVOaxNK6i5VA==
+"@malagu/react@0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/react/-/react-0.1.0-next.d06421f8.tgz#7d144ccd2023555bc74122820ed3e9427b48e09d"
+  integrity sha512-ZWLGcs1f6zMzWG1wwwRMYnNLr4pryJ3pbIlYtDmWBkvD4QVw/G8qvtMqzfvY3Y4FSdaDOmNYPpAttp0cYb6upg==
   dependencies:
-    "@malagu/widget" "0.1.0-next.ab70ce8b"
+    "@malagu/widget" "0.1.0-next.d06421f8"
     history "^4.10.1"
     react "^16.12.0"
     react-dom "^16.12.0"
@@ -1051,35 +1051,35 @@
     react-router "^5.2.0"
     react-router-dom "^5.2.0"
 
-"@malagu/rpc@next":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/rpc/-/rpc-0.1.0-next.ab70ce8b.tgz#d0a0d61ed3918bc580d1cd8272f7471eaa35fe5d"
-  integrity sha512-XeMe8kPxWnnJdfr/UVomoUeUemP3SjcVLOytvfc/5xsJlGYTg6uxc0zPGo+Kz8TDhrc9ouz/1FPMZLnKFpc7hA==
+"@malagu/rpc@^0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/rpc/-/rpc-0.1.0-next.d06421f8.tgz#9b4d22854b3954b84a3263bf618808de68e13d90"
+  integrity sha512-02CHOiMwzTzkDfV+jmok0umcACbKFD2PMkOIc1uOhz1poFGWkTL62c2loqMQbTyHx3Xj8+DuDourr0mjaSneYA==
   dependencies:
-    "@malagu/web" "0.1.0-next.ab70ce8b"
+    "@malagu/web" "0.1.0-next.d06421f8"
     reconnecting-websocket "^4.1.10"
 
-"@malagu/serve-static@next":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/serve-static/-/serve-static-0.1.0-next.ab70ce8b.tgz#a90c027b0ef9e9789fec08e0a7e3c871c2e59d8f"
-  integrity sha512-7fibfXQc6xlQvqCOmFYz3JSdU8V8z8uN49qlFp+UW+wp9nys0ENNPVgPqDc/7cNKvi+vZ9lhMyGoWs9w1KV4QQ==
+"@malagu/serve-static@^0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/serve-static/-/serve-static-0.1.0-next.d06421f8.tgz#a64eaac81d0226e2a152b5a9dadd671df289311d"
+  integrity sha512-f6ydKAV4ENR2++m1fQoMP62jvFwUrFnTlMnV9ffAU2+kUDV89q3YtqjirvHdJPp+kYMEI8tohMUJYaUEI/N2aQ==
   dependencies:
-    "@malagu/web" "0.1.0-next.ab70ce8b"
+    "@malagu/web" "0.1.0-next.d06421f8"
     serve-static "^1.14.1"
 
-"@malagu/shell@next":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/shell/-/shell-0.1.0-next.ab70ce8b.tgz#abba46ef1f1dc5f2d502fdd5547f6556398464f9"
-  integrity sha512-h4Nnv2rc2HO3rMKE3z65QX4Z/F+2GOhjNDxed3dEpUBU6rcqhoEkAtFXi1yt28GCP/mP6c/yMKnd3oX4+CNVXw==
+"@malagu/shell@^0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/shell/-/shell-0.1.0-next.d06421f8.tgz#4280747e89614b6672a07bf06d94a2eceff10c83"
+  integrity sha512-4U4JDNi50AyTn+hbm97eOcCfHN0X2vToju9tauuKbwnmPKFEs8nZcOQQkcL+ChsyqgqyvjQh7mKCGVir1iSmqA==
   dependencies:
-    "@malagu/grommet" "0.1.0-next.ab70ce8b"
+    "@malagu/grommet" "0.1.0-next.d06421f8"
 
-"@malagu/web@0.1.0-next.ab70ce8b":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/web/-/web-0.1.0-next.ab70ce8b.tgz#8aeff460ca9cb69549b99d4b722fa3c0a093db76"
-  integrity sha512-v7khWXHhBTVlPn93MLBGzxvuI6aSIzriUEwGJmvWHOVt/YpOGaKaFBBA+bqglpER5GlR2K09UQcLJNnTdR4wyA==
+"@malagu/web@0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/web/-/web-0.1.0-next.d06421f8.tgz#64746dd4e9de3cedf36626456f47bf3ff96bcd77"
+  integrity sha512-T069s1+Xp+ozJF2SS2eOtd8fvJuh+HRv+LB5COIqDo44pmaVzPfs9Vsd0GPkbQ5p9fngbbAOSkmTzgV7l280EA==
   dependencies:
-    "@malagu/core" "0.1.0-next.ab70ce8b"
+    "@malagu/core" "0.1.0-next.d06421f8"
     "@types/express" "^4.16.1"
     cookies "^0.8.0"
     cors "^2.8.5"
@@ -1088,12 +1088,12 @@
     url-pattern "^1.0.3"
     uuid "^3.4.0"
 
-"@malagu/widget@0.1.0-next.ab70ce8b":
-  version "0.1.0-next.ab70ce8b"
-  resolved "https://registry.yarnpkg.com/@malagu/widget/-/widget-0.1.0-next.ab70ce8b.tgz#a76e005c9b6014df1a5a5a5b140ec26fcf1c6b7c"
-  integrity sha512-J/i32wLPvzFbUERewG4/dCALiDMsjiPfI/ysKiKqkFQhMxzwFbRu1DdqB4ZW+Zbl85ut9W0cq8xEuGal6tJZxg==
+"@malagu/widget@0.1.0-next.d06421f8":
+  version "0.1.0-next.d06421f8"
+  resolved "https://registry.yarnpkg.com/@malagu/widget/-/widget-0.1.0-next.d06421f8.tgz#c1237107650bdf04b1c7bb4887b8406953181171"
+  integrity sha512-Y1rm2Nlc8Wkcw/gPIMFDnXS2FG6lzkcEfuIcY+Adxmr16sFn/7/aPJVDb/drMezJcYSGtMIEdDcRPCZ5O68QRw==
   dependencies:
-    "@malagu/core" "0.1.0-next.ab70ce8b"
+    "@malagu/core" "0.1.0-next.d06421f8"
     "@phosphor/widgets" "^1.9.3"
     perfect-scrollbar "^1.4.0"
 
@@ -1413,9 +1413,9 @@
     "@types/node" "*"
 
 "@types/serve-static@*":
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.4.tgz#6662a93583e5a6cabca1b23592eb91e12fa80e7c"
-  integrity sha512-jTDt0o/YbpNwZbQmE/+2e+lfjJEJJR0I3OFaKQKPWkASkCoW3i6fsUnqudSMcNAfbtmADGu8f4MV4q+GqULmug==
+  version "1.13.5"
+  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.13.5.tgz#3d25d941a18415d3ab092def846e135a08bbcf53"
+  integrity sha512-6M64P58N+OXjU432WoLLBQxbA0LRGBCRm7aAGQJ+SMC1IMl0dgRVi9EFfoDcS2a7Xogygk/eGN94CfwU9UF7UQ==
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
@@ -1695,9 +1695,9 @@ ajv-errors@^1.0.0:
   integrity sha512-DCRfO/4nQ+89p/RK43i8Ezd41EqdGIU4ld7nGF8OQ14oc/we5rEntLCUa7+jrn3nn83BosfwZA0wb4pon2o8iQ==
 
 ajv-keywords@^3.1.0, ajv-keywords@^3.4.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.1.tgz#b83ca89c5d42d69031f424cad49aada0236c6957"
-  integrity sha512-KWcq3xN8fDjSB+IMoh2VaXVhRI0BBGxoYp3rx7Pkb6z0cFjYR9Q9l4yZqqals0/zsioCmocC5H6UvsGD4MoIBA==
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
+  integrity sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==
 
 ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.2:
   version "6.12.3"
@@ -3256,9 +3256,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.488:
-  version "1.3.509"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.509.tgz#830fcb89cd66dc2984d18d794973b99e3f00584c"
-  integrity sha512-cN4lkjNRuTG8rtAqTOVgwpecEC2kbKA04PG6YijcKGHK/kD0xLjiqExcAOmLUwtXZRF8cBeam2I0VZcih919Ug==
+  version "1.3.510"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.510.tgz#dee781ff8b595c0deb60172b75d50b6889757eda"
+  integrity sha512-sLtGB0znXdmo6lM8hy5wTVo+fLqvIuO8hEpgc0DvPmFZqvBu/WB7AarEwhxVKjf3rVbws/rC8Xf+AlsOb36lJQ==
 
 elliptic@^6.0.0, elliptic@^6.5.2:
   version "6.5.3"
