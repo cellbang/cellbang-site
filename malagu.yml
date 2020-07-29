@@ -1,7 +1,10 @@
 # 依赖的公共前端 UI 框从 CDN 上加载
 # mode: cdn
 mode:
-  - locales
+  - locale
+  - theme
+  - widget
+  - shell
 deployConfig:
   service:
     name: cellbang
@@ -11,68 +14,3 @@ deployConfig:
     role: acs:ram::${deployConfig.profile.accountId}:role/cellbangrole
 malagu:
   name: 细胞矩阵 | Cellbang
-  shell:
-    categories:
-      appCenter:
-        name: 应用中心
-    apps:
-      authentication:
-        name: 云认证
-        icon: Shield
-        categoryId: appCenter
-      accessControl:
-        name: 云授权
-        icon: Validate
-        categoryId: appCenter
-      development:
-        name: 云开发
-        icon: Code
-        categoryId: appCenter
-      configuration:
-        name: 云配置
-        icon: SettingsOption
-        categoryId: appCenter
-      monitor:
-        name: 云监控
-        icon: Monitor
-        categoryId: appCenter
-    topArea:
-      background: brand
-  widget:
-    widgets:
-      Account:
-        visible: false
-      Github:
-        type: NavItem
-        area: TopRight
-        props:
-          icon: Github
-          origin: https://github.com
-          path: /cellbang
-          gap: none
-    themes:
-      black:
-        label: 黑色主题
-        props:
-          global:
-            colors:
-              brand: '#000000'
-      green:
-        label: 绿色主题
-        props:
-          global:
-            colors:
-              brand: '#00C781'
-      yellow:
-        label: 黄色主题
-        props:
-          global:
-            colors:
-              brand: '#FFCA58'
-      red:
-        label: 黄色主题
-        props:
-          global:
-            colors:
-              brand: '#FF4040'
-

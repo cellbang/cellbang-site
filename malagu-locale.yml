@@ -1,0 +1,37 @@
+malagu:
+  widget:
+    locales:
+      zh-CN:
+        messages:
+          cellbang.site.home.title: 面向未来的云开发
+          cellbang.site.home.subtitle: 组件沉淀复用 · 开发定义组件 · 业务组装组件
+          cellbang.site.home.joinUs.label: 加入我们
+          cellbang.site.home.joinUs.qq.label: 群：1013685855
+          cellbang.site.home.joinUs.dingding.label: 群：31992376
+          cellbang.site.home.joinUs.email.label: kevin@cellbang.com
+          cellbang.site.home.companyCulture.title: 我们的文化
+          cellbang.site.home.companyCulture.subtitle: 我们的理念基于学习，协作，透明，实验和热情的原则。
+          cellbang.site.home.companyCulture.item1.label: 我们以目标为导向
+          cellbang.site.home.companyCulture.item2.label: 我们每天都使用自己的工具
+          cellbang.site.home.companyCulture.item3.label: 我们与社区共同成长
+          cellbang.site.home.companyCulture.item4.label: 我们被客户痴迷
+          cellbang.site.home.companyCulture.item5.label: 我们相信人们的成长能力
+          cellbang.site.home.footer.label: © 细胞矩阵 ICP备案号：浙ICP备20024799号
+      en-US:
+        messages:
+          cellbang.site.home.title: Future-oriented cloud development
+          cellbang.site.home.subtitle: Component precipitation reuse · Developer-defined components · Business assembly components
+          cellbang.site.home.joinUs.label: Join Us
+          cellbang.site.home.joinUs.qq.label: 'Group: 1013685855'
+          cellbang.site.home.joinUs.dingding.label: 'Group: 31992376'
+          cellbang.site.home.joinUs.email.label: kevin@cellbang.com
+          cellbang.site.home.companyCulture.title: Our Culture
+          cellbang.site.home.companyCulture.subtitle: We base our philosophy on the principles of learning, collaboration, transparency, experimentation and passion.
+          cellbang.site.home.companyCulture.item1.label: We are goal-driven
+          cellbang.site.home.companyCulture.item2.label: We use our own tools every day
+          cellbang.site.home.companyCulture.item3.label: We thrive together with our community
+          cellbang.site.home.companyCulture.item4.label: We are customer obsessed
+          cellbang.site.home.companyCulture.item5.label: We believe in people's ability to grow
+          cellbang.site.home.footer.label: Copyright © { year } Cellbang. All rights reserved.
+
+

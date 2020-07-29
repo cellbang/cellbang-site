@@ -1,0 +1,29 @@
+frontend:
+  malagu:
+    shell:
+      categories:
+        appCenter:
+          name: 应用中心
+      apps:
+        authentication:
+          name: 云认证
+          icon: Shield
+          categoryId: appCenter
+        accessControl:
+          name: 云授权
+          icon: Validate
+          categoryId: appCenter
+        development:
+          name: 云开发
+          icon: Code
+          categoryId: appCenter
+        configuration:
+          name: 云配置
+          icon: SettingsOption
+          categoryId: appCenter
+        monitor:
+          name: 云监控
+          icon: Monitor
+          categoryId: appCenter
+      topArea:
+        background: brand

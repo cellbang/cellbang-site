@@ -1,0 +1,14 @@
+
+frontend:
+  malagu:
+    widget:
+      widgets:
+        Account:
+          visible: false
+        Github:
+          type: NavItem
+          area: TopRight
+          props:
+            icon: Github
+            origin: https://github.com
+            path: /cellbang
