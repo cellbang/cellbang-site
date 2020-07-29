@@ -15,7 +15,22 @@ malagu:
           cellbang.site.home.companyCulture.item2.label: 我们每天都使用自己的工具
           cellbang.site.home.companyCulture.item3.label: 我们与社区共同成长
           cellbang.site.home.companyCulture.item4.label: 我们被客户痴迷
-          cellbang.site.home.companyCulture.item5.label: 我们相信人们的成长能力
+          cellbang.site.home.companyCulture.item5.label: 
+          cellbang.site.home.malagu.title: 开发框架
+          cellbang.site.home.malagu.subtitle: Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
+          cellbang.site.home.malagu.item1.label: 基于 TypeScript
+          cellbang.site.home.malagu.item2.label: 零配置
+          cellbang.site.home.malagu.item3.label: Node.js 版 Spring Boot
+          cellbang.site.home.malagu.item4.label: Serverless First
+          cellbang.site.home.malagu.item5.label: 组件化
+          cellbang.site.home.malagu.item6.label: 支持前后端一体化
+          cellbang.site.home.malagu.item7.label: 面向切面编程（AOP）
+          cellbang.site.home.malagu.item8.label: 集成了 ORM 框架
+          cellbang.site.home.malagu.item9.label: 命令工具插件化
+          cellbang.site.home.malagu.item10.label: 适配任意前端框架
+          cellbang.site.home.malagu.document.label: 文档
+          cellbang.site.home.malagu.project.label: 项目
+          cellbang.site.home.malagu.home.label: 主页
           cellbang.site.home.footer.label: © 细胞矩阵 ICP备案号：浙ICP备20024799号
       en-US:
         messages:
@@ -32,6 +47,21 @@ malagu:
           cellbang.site.home.companyCulture.item3.label: We thrive together with our community
           cellbang.site.home.companyCulture.item4.label: We are customer obsessed
           cellbang.site.home.companyCulture.item5.label: We believe in people's ability to grow
+          cellbang.site.home.malagu.title: Development Framework
+          cellbang.site.home.malagu.subtitle: Malagu is a serverless First, scalable and componentized application framework developed by TypeScript.
+          cellbang.site.home.malagu.item1.label: Based on TypeScript
+          cellbang.site.home.malagu.item2.label: Zero configuration
+          cellbang.site.home.malagu.item3.label: Spring Boot-like development experience
+          cellbang.site.home.malagu.item4.label: Serverless First
+          cellbang.site.home.malagu.item5.label: Componentization
+          cellbang.site.home.malagu.item6.label: Support front-end and back-end integration
+          cellbang.site.home.malagu.item7.label: Aspect-oriented programming (AOP)
+          cellbang.site.home.malagu.item8.label: Integrated ORM framework
+          cellbang.site.home.malagu.item9.label: The command tool is extensible
+          cellbang.site.home.malagu.item10.label: Adapt to any front-end framework
+          cellbang.site.home.malagu.document.label: Document
+          cellbang.site.home.malagu.project.label: Project
+          cellbang.site.home.malagu.home.label: Home
           cellbang.site.home.footer.label: Copyright © { year } Cellbang. All rights reserved.
 
 

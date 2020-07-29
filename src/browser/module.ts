@@ -1,4 +1,4 @@
-import './home.view';
+import './home';
 import './widget'
 import { autoBind } from '@malagu/core';
 import { DefaultLayout } from '@malagu/react';
