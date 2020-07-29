@@ -8,7 +8,7 @@ import { Block } from '../component'
 export function JoinUs() {
     const intl = useIntl();
     return (
-        <Block id="JoinUs">
+        <Block id="JoinUs" justify="between" align="center">
             <Box gap="medium" align="center" pad={{ horizontal: 'large' }}>
                 <QQ size="xlarge"/>
                 <Text>{intl.formatMessage({ id: 'cellbang.site.home.joinUs.qq.label' })}</Text>

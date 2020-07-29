@@ -1,17 +1,18 @@
 import * as React from 'react';
-import { Box, Text, Grid, Button, ResponsiveContext } from 'grommet';
+import { Box, Text, Grid, Button } from 'grommet';
 import { useIntl } from 'react-intl';
 import { StatusGood } from 'grommet-icons';
 import { Block } from '../component'
 
 export function Malagu() {
     const intl = useIntl();
-    const size = React.useContext(ResponsiveContext);
     return (
-        <Block id="Malagu">
-            <Box gap="medium" width="xlarge">
-                <Text alignSelf={size === 'small' ? 'start' : 'center'} size="xlarge">{intl.formatMessage({ id: 'cellbang.site.home.malagu.title' })}</Text>
-                <Text alignSelf="center">{intl.formatMessage({ id: 'cellbang.site.home.malagu.subtitle' })}</Text>
+        <Block 
+            id="Malagu"
+            title={intl.formatMessage({ id: 'cellbang.site.home.malagu.title' })}
+            subtitle={intl.formatMessage({ id: 'cellbang.site.home.malagu.subtitle' })}
+        >
+            <Box gap="medium" fill="horizontal">
                 <Grid rows="xxsmall" columns="medium">
                     <Box direction="row" gap="medium">
                         <StatusGood color="neutral-2"/>

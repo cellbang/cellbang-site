@@ -2,10 +2,11 @@ import * as React from 'react';
 import { View, Redirect } from '@malagu/react';
 import { Box, Button, Text, ResponsiveContext, } from 'grommet';
 import { useIntl } from 'react-intl';
-import { CompanyCulture } from './company-culture';
+import { Culture } from './culture';
 import { JoinUs } from './join-us';
 import { Location } from './location';
 import { Malagu } from './malagu';
+import { Benefit } from './benefit'
 
 function Home() {
     const intl = useIntl();
@@ -27,7 +28,8 @@ function Home() {
                     </Box>
                 </Box>
             </Box>
-            <CompanyCulture></CompanyCulture>
+            <Culture></Culture>
+            <Benefit></Benefit>
             <Malagu></Malagu>
             <JoinUs></JoinUs>
         </Box>
