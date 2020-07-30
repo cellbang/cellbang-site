@@ -15,8 +15,10 @@ jobs:
       - run: npm run lint --if-present
       - run: npm test
       - if: ${{ github.ref == 'refs/heads/master' }}
+        env: ${{ secrets }}
         run: npx malagu deploy -m release
       - if: ${{ github.ref == 'refs/heads/pre' }}
+        env: ${{ secrets }}
         run: npx malagu deploy -m pre
       - if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
         env: ${{ secrets }}
