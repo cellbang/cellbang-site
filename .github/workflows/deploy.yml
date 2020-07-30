@@ -19,9 +19,9 @@ jobs:
     - if: ${{ github.ref == 'refs/heads/pre' }}
       run: npx malagu deploy -m pre
     - if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
-      env: 
-        ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-        ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
-        ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
-        REGION: ${{ secrets.REGION }}
+      env: ${{ secrets }}
+        # ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+        # ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+        # ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
+        # REGION: ${{ secrets.REGION }}
       run: npx malagu deploy -m test
