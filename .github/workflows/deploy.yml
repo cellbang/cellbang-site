@@ -24,4 +24,4 @@ jobs:
         ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
         ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
         REGION: ${{ secrets.REGION }}
-      run: npx malagu deploy -m test
+      run: echo "$ACCESS_KEY_ID"
