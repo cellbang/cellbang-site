@@ -6,7 +6,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - name: Setup node
       uses: actions/setup-node@v1
@@ -14,4 +13,4 @@ jobs:
         node-version: '12'
     - run: |
         yarn install
-        npx malagu -m release
+        npx malagu deploy -m release
