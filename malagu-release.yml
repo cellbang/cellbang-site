@@ -5,5 +5,5 @@ deployConfig:
     protocol: HTTP,HTTPS
     certConfig:
       certName: cert-3956618
-      certificate: '${ env.SSL_PEM ?: ssl/www.cellbang.com.pem }'
-      privateKey: '${ env.SSL_KEY ?: ssl/www.cellbang.com.key }'
+      certificate: "${ env.SSL_PEM ?: 'ssl/www.cellbang.com.pem' }"
+      privateKey: "${ env.SSL_KEY ?: 'ssl/www.cellbang.com.key' }"
