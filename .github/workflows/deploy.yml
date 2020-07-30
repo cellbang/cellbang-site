@@ -6,13 +6,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - env: ${{ secrets }}
-          # ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-          # ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
-          # ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
-          # REGION: ${{ secrets.REGION }}
-        if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
-        run: echo "${{ startsWith(env.ACCESS_KEY_ID, 'LTAI4GBny7')}}"
       - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v1
@@ -25,10 +18,6 @@ jobs:
         run: npx malagu deploy -m release
       - if: ${{ github.ref == 'refs/heads/pre' }}
         run: npx malagu deploy -m pre
-      - env:
-          ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-          ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
-          ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
-          REGION: ${{ secrets.REGION }}
-        if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
-        run: echo "${{env.ACCESS_KEY_ID}}"
+      - if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
+        env: ${{ secrets }}
+        run: npx malagu deploy -m test
