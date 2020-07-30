@@ -6,22 +6,29 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup node
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12'
-    - uses: bahmutov/npm-install@v1
-    - run: npm run lint --if-present
-    - run: npm test
-    - if: ${{ github.ref == 'refs/heads/master' }}
-      run: npx malagu deploy -m release
-    - if: ${{ github.ref == 'refs/heads/pre' }}
-      run: npx malagu deploy -m pre
-    - env:
-        ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-        ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
-        ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
-        REGION: ${{ secrets.REGION }}
-      if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
-      run: echo "${env.ACCESS_KEY_ID}"
+      - env:
+          ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+          ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
+          REGION: ${{ secrets.REGION }}
+        if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
+        run: echo "${env.ACCESS_KEY_ID}"
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - uses: bahmutov/npm-install@v1
+      - run: npm run lint --if-present
+      - run: npm test
+      - if: ${{ github.ref == 'refs/heads/master' }}
+        run: npx malagu deploy -m release
+      - if: ${{ github.ref == 'refs/heads/pre' }}
+        run: npx malagu deploy -m pre
+      - env:
+          ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+          ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
+          REGION: ${{ secrets.REGION }}
+        if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
+        run: echo "${env.ACCESS_KEY_ID}"
