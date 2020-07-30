@@ -6,11 +6,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-          ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
-          ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
-          REGION: ${{ secrets.REGION }}
+      - env: ${{ secrets }}
+          # ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          # ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
+          # ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
+          # REGION: ${{ secrets.REGION }}
         if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
         run: echo "${{ startsWith(env.ACCESS_KEY_ID, 'LTAI4GBny7')}}"
       - uses: actions/checkout@v2
