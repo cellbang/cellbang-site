@@ -31,4 +31,4 @@ jobs:
           ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
           REGION: ${{ secrets.REGION }}
         if: ${{ github.ref != 'refs/heads/master' && github.ref != 'refs/heads/pre' }}
-        run: echo "${env.ACCESS_KEY_ID}"
+        run: echo "${{env.ACCESS_KEY_ID}}"
