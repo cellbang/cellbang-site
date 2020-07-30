@@ -12,7 +12,7 @@ jobs:
         run: echo "$GITHUB_CONTEXT"
       - name: Dump job context
         env:
-          JOB_CONTEXT: ${{ toJson(job) }}
+          JOB_CONTEXT: ${{ toJson(env) }}
         run: echo "$JOB_CONTEXT"
       - name: Dump steps context
         env:
