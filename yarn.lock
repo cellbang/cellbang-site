@@ -969,7 +969,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@malagu/cli@^0.1.0-next.c98f9cb2":
+"@malagu/cli@next":
   version "0.1.0-next.c98f9cb2"
   resolved "https://registry.yarnpkg.com/@malagu/cli/-/cli-0.1.0-next.c98f9cb2.tgz#4ee1c6a00d8b8dc90135c1efddd8760bc0ffc5f1"
   integrity sha512-coKeWj4M1RKHyOdyJmxWpbXsnx2MLySjxWdpF8kho8FiNy2K//O8v4FBqqTk5oxn8qWW4wmrRbc4eE2ksEn+Dw==
@@ -1048,7 +1048,7 @@
     url-join "^4.0.1"
     vscode-ws-jsonrpc "^0.1.1"
 
-"@malagu/fc-adapter@^0.1.0-next.c98f9cb2":
+"@malagu/fc-adapter@next":
   version "0.1.0-next.c98f9cb2"
   resolved "https://registry.yarnpkg.com/@malagu/fc-adapter/-/fc-adapter-0.1.0-next.c98f9cb2.tgz#020bae1ff14ef28d31e59ac1e96202a05696beb1"
   integrity sha512-CRtcAXO7jX5KL07ZYM598T9QK5IJv9J4REStY6+cRTaTOFoalhpSDIRGmH/Z5yTOV9eEMIeLivG/8fvVTQRPiQ==
@@ -1094,7 +1094,7 @@
     react-router "^5.2.0"
     react-router-dom "^5.2.0"
 
-"@malagu/rpc@^0.1.0-next.c98f9cb2":
+"@malagu/rpc@next":
   version "0.1.0-next.c98f9cb2"
   resolved "https://registry.yarnpkg.com/@malagu/rpc/-/rpc-0.1.0-next.c98f9cb2.tgz#bb2d4f63fa5ffc68897d167c1a7dbe956ab10c5f"
   integrity sha512-hqWCoiamsW5LDhyDb3vlxIRMNZJUCm0VuRGn/ocdU6X7PCEkAWEClJ6cv5xGvbKXFBqDyZi6BgCnW9DDHZPF9Q==
@@ -1102,7 +1102,7 @@
     "@malagu/web" "0.1.0-next.c98f9cb2"
     reconnecting-websocket "^4.1.10"
 
-"@malagu/serve-static@^0.1.0-next.c98f9cb2":
+"@malagu/serve-static@next":
   version "0.1.0-next.c98f9cb2"
   resolved "https://registry.yarnpkg.com/@malagu/serve-static/-/serve-static-0.1.0-next.c98f9cb2.tgz#72ea9aeb247c6862183f1b1282770d17b8d076a5"
   integrity sha512-2JQ7RbArE2tFNSIHqGSumJj4mIjTQxtbynXSrubCox1bDNup62LZDKbXJa27CHGOISSOS3JuXe3MAFfpTXa0Pg==
@@ -1110,7 +1110,7 @@
     "@malagu/web" "0.1.0-next.c98f9cb2"
     serve-static "^1.14.1"
 
-"@malagu/shell@^0.1.0-next.c98f9cb2":
+"@malagu/shell@next":
   version "0.1.0-next.c98f9cb2"
   resolved "https://registry.yarnpkg.com/@malagu/shell/-/shell-0.1.0-next.c98f9cb2.tgz#abfab4c49d80e09e0c33beefc3c442bf93cdd0b7"
   integrity sha512-k+6LpV/ZO2+R68isuvfJR9g1nSNThDcNdcFGmQMWxZkJUXDoCr7lz/wtgqeykbPNeGZXUP/XYRSoazWgkkklew==
