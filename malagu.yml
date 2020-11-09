@@ -1,16 +1,22 @@
-# 依赖的公共前端 UI 框从 CDN 上加载
-# mode: cdn
 mode:
+  - cdn
   - locale
   - theme
   - widget
   - shell
-deployConfig:
-  service:
-    name: cellbang
-    logConfig: 
-      logstore: logstore
-      project: cellbang
-    role: acs:ram::${deployConfig.profile.accountId}:role/cellbangrole
 malagu:
   name: 细胞矩阵 | Cellbang
+  fc-adapter:
+    service:
+      name: cellbang
+      logConfig: 
+        logstore: logstore
+        project: cellbang
+      role: acs:ram::${malagu["fc-adapter"].profile.accountId}:role/cellbangrole
+    customDomain:
+      name: www.cellbang.com
+      protocol: HTTP,HTTPS
+      certConfig:
+        certName: cert-3956618
+        certificate: "${ env.SSL_PEM ?: 'ssl/www.cellbang.com.pem' }"
+        privateKey: "${ env.SSL_KEY ?: 'ssl/www.cellbang.com.key' }"

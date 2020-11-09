@@ -1,83 +1,82 @@
 malagu:
-  widget:
-    locales:
-      zh-CN:
-        messages:
-          cellbang.site.home.title: 面向未来的云开发
-          cellbang.site.home.subtitle: 组件沉淀复用 · 开发定义组件 · 业务组装组件
-          cellbang.site.home.joinUs.label: 加入我们
-          cellbang.site.home.joinUs.qq.label: 群：1013685855
-          cellbang.site.home.joinUs.dingding.label: 群：31992376
-          cellbang.site.home.joinUs.email.label: kevin@cellbang.com
-          cellbang.site.home.culture.title: 我们的文化
-          cellbang.site.home.culture.subtitle: 我们的理念基于学习，协作，透明，实验和热情的原则。
-          cellbang.site.home.culture.item1.label: 我们以目标为导向
-          cellbang.site.home.culture.item2.label: 我们每天都使用自己的工具
-          cellbang.site.home.culture.item3.label: 我们与社区共同成长
-          cellbang.site.home.culture.item4.label: 我们被客户痴迷
-          cellbang.site.home.culture.item5.label: 我们相信人们的成长能力
-          cellbang.site.home.benefit.title: 我们的优势
-          cellbang.site.home.benefit.subtitle: 与我们一起工作更快乐
-          cellbang.site.home.benefit.item1.title: 学习成长
-          cellbang.site.home.benefit.item1.subtitle: 我们为您提供持续的指导，帮助您发展事业，并派您参加活动，以便您建立人脉。
-          cellbang.site.home.benefit.item2.title: 灵活的工作风格
-          cellbang.site.home.benefit.item2.subtitle: 我们支持远程办公，与不同城市的队友一起工作。
-          cellbang.site.home.benefit.item3.title: 平衡的工作生活
-          cellbang.site.home.benefit.item3.subtitle: 我们提供开放假期政策，随时充电。
-          cellbang.site.home.malagu.title: 开发框架
-          cellbang.site.home.malagu.subtitle: Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
-          cellbang.site.home.malagu.item1.label: 基于 TypeScript
-          cellbang.site.home.malagu.item2.label: 零配置
-          cellbang.site.home.malagu.item3.label: Node.js 版 Spring Boot
-          cellbang.site.home.malagu.item4.label: Serverless First
-          cellbang.site.home.malagu.item5.label: 组件化
-          cellbang.site.home.malagu.item6.label: 支持前后端一体化
-          cellbang.site.home.malagu.item7.label: 面向切面编程（AOP）
-          cellbang.site.home.malagu.item8.label: 集成了 ORM 框架
-          cellbang.site.home.malagu.item9.label: 命令工具插件化
-          cellbang.site.home.malagu.item10.label: 适配任意前端框架
-          cellbang.site.home.malagu.document.label: 文档
-          cellbang.site.home.malagu.project.label: 项目
-          cellbang.site.home.malagu.home.label: 主页
-          cellbang.site.home.footer.label: © 细胞矩阵 ICP备案号：浙ICP备20024799号
-      en-US:
-        messages:
-          cellbang.site.home.title: Future-oriented cloud development
-          cellbang.site.home.subtitle: Component precipitation reuse · Developer-defined components · Business assembly components
-          cellbang.site.home.joinUs.label: Join Us
-          cellbang.site.home.joinUs.qq.label: 'Group: 1013685855'
-          cellbang.site.home.joinUs.dingding.label: 'Group: 31992376'
-          cellbang.site.home.joinUs.email.label: kevin@cellbang.com
-          cellbang.site.home.culture.title: Our Culture
-          cellbang.site.home.culture.subtitle: We base our philosophy on the principles of learning, collaboration, transparency, experimentation and passion.
-          cellbang.site.home.culture.item1.label: We are goal-driven
-          cellbang.site.home.culture.item2.label: We use our own tools every day
-          cellbang.site.home.culture.item3.label: We thrive together with our community
-          cellbang.site.home.culture.item4.label: We are customer obsessed
-          cellbang.site.home.culture.item5.label: We believe in people's ability to grow
-          cellbang.site.home.benefit.title: Our Benefits
-          cellbang.site.home.benefit.subtitle: Work Happier With Us
-          cellbang.site.home.benefit.item1.title: Learn And Grow
-          cellbang.site.home.benefit.item1.subtitle: We provide help you grow in your career with ongoing mentorship, and send you to events so you can build your network.
-          cellbang.site.home.benefit.item2.title: Flexible Working Style
-          cellbang.site.home.benefit.item2.subtitle: We support telecommuting and work with teammates in different cities.
-          cellbang.site.home.benefit.item3.title: Balanced Working Life
-          cellbang.site.home.benefit.item3.subtitle: We offer an open vacation policy, Recharge whenever you need to.
-          cellbang.site.home.malagu.title: Development Framework
-          cellbang.site.home.malagu.subtitle: Malagu is a serverless First, scalable and componentized application framework developed by TypeScript.
-          cellbang.site.home.malagu.item1.label: Based on TypeScript
-          cellbang.site.home.malagu.item2.label: Zero configuration
-          cellbang.site.home.malagu.item3.label: Spring Boot-like development experience
-          cellbang.site.home.malagu.item4.label: Serverless First
-          cellbang.site.home.malagu.item5.label: Componentization
-          cellbang.site.home.malagu.item6.label: Support front-end and back-end integration
-          cellbang.site.home.malagu.item7.label: Aspect-oriented programming (AOP)
-          cellbang.site.home.malagu.item8.label: Integrated ORM framework
-          cellbang.site.home.malagu.item9.label: The command tool is extensible
-          cellbang.site.home.malagu.item10.label: Adapt to any front-end framework
-          cellbang.site.home.malagu.document.label: Document
-          cellbang.site.home.malagu.project.label: Project
-          cellbang.site.home.malagu.home.label: Home
-          cellbang.site.home.footer.label: Copyright © { year } Cellbang. All rights reserved.
+  locales:
+    zh-CN:
+      messages:
+        cellbang.site.home.title: 面向未来的云开发
+        cellbang.site.home.subtitle: 组件沉淀复用 · 开发定义组件 · 业务组装组件
+        cellbang.site.home.joinUs.label: 加入我们
+        cellbang.site.home.joinUs.qq.label: 群：1013685855
+        cellbang.site.home.joinUs.dingding.label: 群：31992376
+        cellbang.site.home.joinUs.email.label: kevin@cellbang.com
+        cellbang.site.home.culture.title: 我们的文化
+        cellbang.site.home.culture.subtitle: 我们的理念基于学习，协作，透明，实验和热情的原则。
+        cellbang.site.home.culture.item1.label: 我们以目标为导向
+        cellbang.site.home.culture.item2.label: 我们每天都使用自己的工具
+        cellbang.site.home.culture.item3.label: 我们与社区共同成长
+        cellbang.site.home.culture.item4.label: 我们被客户痴迷
+        cellbang.site.home.culture.item5.label: 我们相信人们的成长能力
+        cellbang.site.home.benefit.title: 我们的优势
+        cellbang.site.home.benefit.subtitle: 与我们一起工作更快乐
+        cellbang.site.home.benefit.item1.title: 学习成长
+        cellbang.site.home.benefit.item1.subtitle: 我们为您提供持续的指导，帮助您发展事业，并派您参加活动，以便您建立人脉。
+        cellbang.site.home.benefit.item2.title: 灵活的工作风格
+        cellbang.site.home.benefit.item2.subtitle: 我们支持远程办公，与不同城市的队友一起工作。
+        cellbang.site.home.benefit.item3.title: 平衡的工作生活
+        cellbang.site.home.benefit.item3.subtitle: 我们提供开放假期政策，随时充电。
+        cellbang.site.home.malagu.title: 开发框架
+        cellbang.site.home.malagu.subtitle: Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
+        cellbang.site.home.malagu.item1.label: 基于 TypeScript
+        cellbang.site.home.malagu.item2.label: 零配置
+        cellbang.site.home.malagu.item3.label: Node.js 版 Spring Boot
+        cellbang.site.home.malagu.item4.label: Serverless First
+        cellbang.site.home.malagu.item5.label: 组件化
+        cellbang.site.home.malagu.item6.label: 支持前后端一体化
+        cellbang.site.home.malagu.item7.label: 面向切面编程（AOP）
+        cellbang.site.home.malagu.item8.label: 集成了 ORM 框架
+        cellbang.site.home.malagu.item9.label: 命令工具插件化
+        cellbang.site.home.malagu.item10.label: 适配任意前端框架
+        cellbang.site.home.malagu.document.label: 文档
+        cellbang.site.home.malagu.project.label: 项目
+        cellbang.site.home.malagu.home.label: 主页
+        cellbang.site.home.footer.label: © 细胞矩阵 ICP备案号：浙ICP备20024799号
+    en-US:
+      messages:
+        cellbang.site.home.title: Future-oriented cloud development
+        cellbang.site.home.subtitle: Component precipitation reuse · Developer-defined components · Business assembly components
+        cellbang.site.home.joinUs.label: Join Us
+        cellbang.site.home.joinUs.qq.label: 'Group: 1013685855'
+        cellbang.site.home.joinUs.dingding.label: 'Group: 31992376'
+        cellbang.site.home.joinUs.email.label: kevin@cellbang.com
+        cellbang.site.home.culture.title: Our Culture
+        cellbang.site.home.culture.subtitle: We base our philosophy on the principles of learning, collaboration, transparency, experimentation and passion.
+        cellbang.site.home.culture.item1.label: We are goal-driven
+        cellbang.site.home.culture.item2.label: We use our own tools every day
+        cellbang.site.home.culture.item3.label: We thrive together with our community
+        cellbang.site.home.culture.item4.label: We are customer obsessed
+        cellbang.site.home.culture.item5.label: We believe in people's ability to grow
+        cellbang.site.home.benefit.title: Our Benefits
+        cellbang.site.home.benefit.subtitle: Work Happier With Us
+        cellbang.site.home.benefit.item1.title: Learn And Grow
+        cellbang.site.home.benefit.item1.subtitle: We provide help you grow in your career with ongoing mentorship, and send you to events so you can build your network.
+        cellbang.site.home.benefit.item2.title: Flexible Working Style
+        cellbang.site.home.benefit.item2.subtitle: We support telecommuting and work with teammates in different cities.
+        cellbang.site.home.benefit.item3.title: Balanced Working Life
+        cellbang.site.home.benefit.item3.subtitle: We offer an open vacation policy, Recharge whenever you need to.
+        cellbang.site.home.malagu.title: Development Framework
+        cellbang.site.home.malagu.subtitle: Malagu is a serverless First, scalable and componentized application framework developed by TypeScript.
+        cellbang.site.home.malagu.item1.label: Based on TypeScript
+        cellbang.site.home.malagu.item2.label: Zero configuration
+        cellbang.site.home.malagu.item3.label: Spring Boot-like development experience
+        cellbang.site.home.malagu.item4.label: Serverless First
+        cellbang.site.home.malagu.item5.label: Componentization
+        cellbang.site.home.malagu.item6.label: Support front-end and back-end integration
+        cellbang.site.home.malagu.item7.label: Aspect-oriented programming (AOP)
+        cellbang.site.home.malagu.item8.label: Integrated ORM framework
+        cellbang.site.home.malagu.item9.label: The command tool is extensible
+        cellbang.site.home.malagu.item10.label: Adapt to any front-end framework
+        cellbang.site.home.malagu.document.label: Document
+        cellbang.site.home.malagu.project.label: Project
+        cellbang.site.home.malagu.home.label: Home
+        cellbang.site.home.footer.label: Copyright © { year } Cellbang. All rights reserved.
 
 

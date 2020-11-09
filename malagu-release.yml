@@ -1,9 +1,0 @@
-deployConfig:
-  name: release # 线上环境
-  customDomain:
-    name: www.cellbang.com # 需要绑定自定义域名才能正常访问
-    protocol: HTTP,HTTPS
-    certConfig:
-      certName: cert-3956618
-      certificate: "${ env.SSL_PEM ?: 'ssl/www.cellbang.com.pem' }"
-      privateKey: "${ env.SSL_KEY ?: 'ssl/www.cellbang.com.key' }"
