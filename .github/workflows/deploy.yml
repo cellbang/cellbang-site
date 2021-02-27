@@ -16,7 +16,7 @@ jobs:
       - run: npm test
       - if: ${{ github.ref == 'refs/heads/master' }}
         env: ${{ secrets }}
-        run: npx malagu deploy -m release
+        run: npx malagu deploy -m prod
       - if: ${{ github.ref == 'refs/heads/pre' }}
         env: ${{ secrets }}
         run: npx malagu deploy -m pre

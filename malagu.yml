@@ -8,17 +8,23 @@ malagu:
   security:
     loginRequired: false
   name: 细胞矩阵 | Cellbang
-  fc-adapter:
+  faas-adapter:
     service:
       name: cellbang
       logConfig: 
         logstore: logstore
         project: cellbang
-      role: acs:ram::${malagu["fc-adapter"].profile.accountId}:role/cellbangrole
+      role: acs:ram::${malagu['faas-adapter'].account.id}:role/cellbangrole
     customDomain:
       name: www.cellbang.com
       protocol: HTTP,HTTPS
       certConfig:
         certName: cert-3956618
-        certificate: "${ env.SSL_PEM ?: 'ssl/www.cellbang.com.pem' }"
-        privateKey: "${ env.SSL_KEY ?: 'ssl/www.cellbang.com.key' }"
+        certificate: "${ env.SSL_PEM ?: 'ssl/cert.pem' }"
+        privateKey: "${ env.SSL_KEY ?: 'ssl/cert.key' }"
+
+backend:
+  malagu:
+    cookies:
+      keys:
+        - "${env.COOKIES_KEY ?: 'abcdef'}"
