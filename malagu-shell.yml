@@ -1,29 +1,27 @@
 frontend:
   malagu:
     shell:
+      account:
+        login:
+          path: 'https://accounts.cellbang.com/login'
       categories:
         appCenter:
           name: 应用中心
       apps:
-        authentication:
-          name: 云认证
-          icon: Shield
+        accounts:
+          name: 账号
+          icon: User
+          url: 'https://accounts.cellbang.com/login'
           categoryId: appCenter
-        accessControl:
-          name: 云授权
-          icon: Validate
+        document:
+          name: 云文档
+          icon: Notes
+          url: 'https://cloud.cellbang.com'
           categoryId: appCenter
         development:
           name: 云开发
           icon: Code
-          categoryId: appCenter
-        configuration:
-          name: 云配置
-          icon: SettingsOption
-          categoryId: appCenter
-        monitor:
-          name: 云监控
-          icon: Monitor
+          url: 'https://cloud.cellbang.com'
           categoryId: appCenter
       topArea:
         background: brand

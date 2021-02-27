@@ -3,8 +3,6 @@ frontend:
   malagu:
     widget:
       widgets:
-        Account:
-          visible: false
         Github:
           type: NavItem
           area: TopRight

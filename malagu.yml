@@ -5,6 +5,8 @@ mode:
   - widget
   - shell
 malagu:
+  security:
+    loginRequired: false
   name: 细胞矩阵 | Cellbang
   fc-adapter:
     service:
