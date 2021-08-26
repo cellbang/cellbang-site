@@ -13,7 +13,8 @@
     "@malagu/fc-adapter": "latest",
     "@malagu/rpc": "latest",
     "@malagu/serve-static": "latest",
-    "@malagu/shell": "latest"
+    "@malagu/shell": "latest",
+    "@malagu/pwa": "latest"
   },
   "devDependencies": {
     "@malagu/cli": "latest",
